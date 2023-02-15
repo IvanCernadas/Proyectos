@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre" />
+
+    <EditText
+        android:id="@+id/editText_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos" />
+
+    <EditText
+        android:id="@+id/editText_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono" />
+
+    <EditText
+        android:id="@+id/editText_telefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/Dirección"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección" />
+
+    <EditText
+        android:id="@+id/editText_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/observaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Observaciones" />
+
+    <EditText
+        android:id="@+id/editText_observaciones"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
